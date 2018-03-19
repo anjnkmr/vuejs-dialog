@@ -34,7 +34,7 @@
                             </form>
                         </div>
 
-                        <div class="dg-content-footer">
+                        <div class="dg-content-footer text-right">
 
                             <button @click="clickLeftBtn()" :is="leftBtnComponent" :loading="loading"
                                        :enabled="leftBtnEnabled" :options="options" :focus="leftBtnFocus">
